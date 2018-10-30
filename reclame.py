@@ -25,5 +25,5 @@ for link in page_links:
 
     print(
         'Titulo: {}\n\n'.format(titulo),
-        'Reclamação: {}\n\n'.format(reclamacao)
+        'Reclamação: {}\n\n\'.format(reclamacao)
     )
