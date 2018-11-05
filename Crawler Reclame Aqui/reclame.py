@@ -1,3 +1,4 @@
+#!usr/bin/python3
 from bs4 import BeautifulSoup as bs
 from selenium import webdriver
 from time import sleep
@@ -24,6 +25,6 @@ for link in page_links:
     reclamacao = bsPage.find('div', {'class':'complain-body'}).text
 
     print(
-        'Titulo: {}\n\n'.format(titulo),
-        'Reclamação: {}\n\n\'.format(reclamacao)
+        'Titulo: {}\n\n\
+        Reclamação: {}\n\n'.format(titulo,reclamacao)
     )
